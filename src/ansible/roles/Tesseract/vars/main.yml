@@ -1,1 +1,1 @@
-tesseract_python_pkg: ["pyTesseract", "opencv-python"]
+tesseract_python_pkg: ["pytesseract", "opencv-python"]
