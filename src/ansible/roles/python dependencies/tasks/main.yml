@@ -1,0 +1,7 @@
+- debug:
+    msg: "{{virtual_env}}"
+
+- name: Tesseract pip install
+  include_tasks: "{{fn}}/Pip_install.yml"
+  loop:
+  - "{{tesseract_python_pkg}}"
