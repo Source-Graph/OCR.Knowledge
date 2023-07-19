@@ -3,6 +3,10 @@ import pytesseract
 import numpy as np
 import pathlib
 
+'''
+from: https://builtin.com/data-science/python-ocr
+'''
+
 dir = f"{pathlib.Path.home()}/Downloads"
 
 filename = f"{dir}/image_01.jpg"
